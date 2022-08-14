@@ -8,12 +8,12 @@ import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from itertools import product
-from GA_GAN.models import *
-from GA_GAN.models_2 import *
-from GA_GAN.result_save import *
-from GA_GAN.visualization import *
-from GA_GAN.utils import *
-from GA_GAN.load_data import *
+from models import *
+from models_2 import *
+from result_save import *
+from visualization import *
+from utils import *
+from load_data import *
 # from gain_GAGAN import *
 
 
